@@ -17,7 +17,7 @@ function Kartu(props){
       <div className="col-8 text1"><input value={props.jumlah} type="text" className='form-control'/></div>
       <div className="col-2"><button onClick={props.tambah} className='btn btn-success'>+</button></div>
     </div>
-    <div className="div text-center mt-3"><h5>TOTAL</h5>Rp.{props.hasil}</div>
+    <div className="div text-center mt-3"><h5>TOTAL Harga</h5>Rp.{props.hasil}</div>
     
     
   </div>
